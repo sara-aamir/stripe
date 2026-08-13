@@ -1,19 +1,23 @@
 export const infrastuctureStyles = {
   container: {
     backgroundColor: "#fff",
+    width: "100%",
+    boxSizing: "border-box",
+    px: { xs: "24px", md: "32px" },
+    borderBottom: "1px solid #E5E7EB",
+  },
+
+  grid: {
     display: "grid",
     gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
     columnGap: { xs: 0, md: 8 },
     rowGap: { xs: 2, md: 3 },
-
     width: "100%",
     minWidth: 0,
     boxSizing: "border-box",
-
     maxWidth: "1200px",
     margin: "0 auto",
-    padding: { xs: "32px 24px 40px", md: "48px 32px 56px" },
-    borderBottom: "1px solid #E5E7EB",
+    padding: { xs: "32px 0 40px", md: "48px 0 56px" },
   },
 
   heading: {
