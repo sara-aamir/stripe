@@ -12,7 +12,7 @@ export const globalReachStyles = {
 
   container: {
     backgroundColor: "#fff",
-    px: { xs: 3, sm: 3, md: 4 },
+    px: { xs: "24px", md: "32px" },
     py: { xs: 4, md: 6 },
     borderBottom: "1px solid #F3F4F6",
   },

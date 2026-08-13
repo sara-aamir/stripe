@@ -9,6 +9,7 @@ export const navbarStyles = {
       : "1px solid transparent",
     fontFamily: "'Inter', sans-serif",
     transition: "background-color 0.03s ease, border-color 0.3s ease",
+    px: { xs: "24px", md: "40px" },
     ...(isScrolled && {
       backdropFilter: "blur(8px)",
       WebkitBackdropFilter: "blur(8px)",
@@ -16,11 +17,14 @@ export const navbarStyles = {
   }),
 
   toolbar: {
-    width: "90%",
+    width: "100%",
+    maxWidth: "1200px",
+    margin: "0 auto",
     justifyContent: "space-between",
     alignItems: "center",
     py: 0,
-    px: { xs: 2, sm: 4, md: 6 },
+    pl: { xs: "24px", md: "32px" },
+    pr: { xs: "24px", md: "44px" },
     minWidth: 0,
   },
 

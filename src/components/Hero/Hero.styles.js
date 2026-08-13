@@ -23,11 +23,7 @@ export const heroStyles = {
   container: {
     backgroundColor: "#fff",
     minHeight: "100vh",
-    px: {
-      xs: 2,
-      sm: 3,
-      md: 4,
-    },
+    px: { xs: "24px", md: "32px" },
   },
 
   heroGifPlaceholder: {

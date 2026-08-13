@@ -493,7 +493,6 @@ export const infrastuctureStyles = {
   testimonialWrap: {
     gridColumn: { xs: "1 / -1", md: "1 / -1" },
     marginTop: { xs: 5, md: 6 },
-    marginBottom: { xs: 4, md: 6 },
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -518,6 +517,16 @@ export const infrastuctureStyles = {
     lineHeight: 1.5,
     maxWidth: "760px",
     width: "100%",
+    margin: "0 auto",
+  },
+
+  testimonialTabs: {
+    position: "relative",
+    display: "flex",
+    width: "100%",
+    maxWidth: "100%",
+    margin: "24px 0 0",
+    borderTop: "1px solid #E5E7EB",
   },
 
   testimonialByline: {
@@ -540,15 +549,6 @@ export const infrastuctureStyles = {
       backgroundColor: "transparent",
       textDecoration: "underline",
     },
-  },
-
-  testimonialTabs: {
-    position: "relative",
-    display: "flex",
-    width: "100%",
-    maxWidth: "900px",
-    borderTop: "1px solid #E5E7EB",
-    marginTop: "24px",
   },
 
   testimonialTab: {
